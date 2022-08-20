@@ -8,7 +8,7 @@ function MyApp({ Component, pageProps }) {
       <header className="header">
         <h2>Lucky Puppy</h2>
       </header>
-      <aside class="display-border aside aside-1">
+      <aside className="display-border aside aside-1">
         <div>
           <nav>
             <Link href="/">
@@ -28,7 +28,7 @@ function MyApp({ Component, pageProps }) {
       </aside>
       <Component {...pageProps} />
 
-      <footer class="display-border footer">Footer</footer>
+      <footer className="display-border footer">Footer</footer>
     </div>
   );
 }
