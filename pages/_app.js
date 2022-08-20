@@ -2,12 +2,13 @@
 import "../styles/style.css";
 import Link from "next/link";
 import Facts from "../lib/components/fact";
+import Heading from "../lib/components/header";
 
 function MyApp({ Component, pageProps }) {
   return (
     <div className="wrapper">
-      <header className="header">
-        <h2>Lucky Puppy</h2>
+      <header>
+        <Heading />
         <Facts />
       </header>
       <aside className="display-border aside aside-1">
@@ -19,12 +20,13 @@ function MyApp({ Component, pageProps }) {
             <Link href="/about">
               <a>About</a>
             </Link>
-            <Link href="/vet">
-              <a>Vet Records</a>
+            <Link href="/records">
+              <a>Records</a>
             </Link>
             <Link href="/gallery">
               <a>Gallery</a>
             </Link>
+
             <Link href="/contact">
               <a>Contact</a>
             </Link>
