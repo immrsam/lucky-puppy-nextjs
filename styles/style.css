@@ -118,6 +118,12 @@ body{
     margin: 5px;
 }
 
+.image-gallery {
+    width: 80%;
+    height: auto;
+    margin: 0 auto;
+}
+
 @media all and (min-width: 820px) {
     html{
         margin: 0;
