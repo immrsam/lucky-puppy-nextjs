@@ -1,4 +1,5 @@
 import { MakeRecord, GetLatestRecord } from "../lib/components/NoteOperations";
+import { GetImages } from "../lib/components/ImageOperations";
 
 export default function Home() {
   return (
@@ -8,7 +9,7 @@ export default function Home() {
 
       <GetLatestRecord />
       <h1>Latest pics</h1>
-      <h1>Recent Post</h1>
+      <GetImages />
     </section>
   );
 }

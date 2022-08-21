@@ -77,6 +77,7 @@ body{
     border: solid 1px #0000001f;
 
 }
+@import "~react-image-gallery/styles/css/image-gallery.css";
 
 .heading{
     float: left;
@@ -110,6 +111,11 @@ body{
 .fact-button{
     cursor: pointer;
     color: rgba(255, 255, 255, 0.432);
+}
+
+.latest-pics{
+    border-radius: 5px;
+    margin: 5px;
 }
 
 @media all and (min-width: 820px) {
