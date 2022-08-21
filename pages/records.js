@@ -6,7 +6,7 @@ export default function Records() {
     <div className="main">
       <h1>Records</h1>
       <NoteOperations />
-      {/* <GetRecords /> */}
+      <GetRecords />
     </div>
   );
 }
