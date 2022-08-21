@@ -7,35 +7,46 @@ import Heading from "../lib/components/header";
 function MyApp({ Component, pageProps }) {
   return (
     <div className="wrapper">
-      <header>
-        <Heading />
-        <Facts />
-      </header>
-      <aside className="display-border aside aside-1">
-        <div>
-          <nav>
-            <Link href="/">
-              <a>Home</a>
-            </Link>
-            <Link href="/about">
-              <a>About</a>
-            </Link>
-            <Link href="/records">
-              <a>Records</a>
-            </Link>
-            <Link href="/gallery">
-              <a>Gallery</a>
-            </Link>
-
-            <Link href="/contact">
-              <a>Contact</a>
-            </Link>
-          </nav>
-        </div>
-      </aside>
-      <Component {...pageProps} />
-
-      <footer className="display-border footer">Footer</footer>
+      <div className="left-wrap">
+        <aside className="menu">
+          <Heading />
+          <div>
+            <nav>
+              <Link href="/">
+                <a>
+                  H<span className="text">ome</span>
+                </a>
+              </Link>
+              <Link href="/about">
+                <a>
+                  A<span className="text">bout</span>
+                </a>
+              </Link>
+              <Link href="/records">
+                <a>
+                  R<span className="text">ecords</span>
+                </a>
+              </Link>
+              <Link href="/gallery">
+                <a>
+                  G<span className="text">allery</span>
+                </a>
+              </Link>
+              <Link href="/contact">
+                <a>
+                  C<span className="text">ontact</span>
+                </a>
+              </Link>
+            </nav>
+          </div>
+        </aside>
+      </div>
+      <div className="right-wrap">
+        <header>
+          <Facts />
+        </header>
+        <Component {...pageProps} />
+      </div>
     </div>
   );
 }
