@@ -73,8 +73,6 @@ body{
 .right-wrap{
     float: right;
     width: 80%;
-
-
     box-sizing: border-box;
     border: solid 1px #0000001f;
 
@@ -101,8 +99,12 @@ body{
 
 .main {
     text-align: left;
-    min-height: 90vh;
+    min-height: 50vh;
     padding: 20px;
+    background: rgb(248, 247, 245);
+    margin: 10px;
+    border-radius: 5px;
+    color: #333;
 }
 
 .fact-button{
@@ -143,7 +145,7 @@ body{
         color: white;
     }
     .main    {
-        color: white;
+        color: rgb(0, 0, 0);
     }
 
   }
