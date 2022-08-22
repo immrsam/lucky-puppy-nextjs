@@ -2,6 +2,18 @@
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
+ul{
+    list-style-type: none;
+}
+
+li > a{
+    font-size: 1.5em;
+}
+
+li > a:hover{
+    color: rgb(0, 86, 156);
+}
+
 .menu{
     display: flex;
     flex-direction: column;
