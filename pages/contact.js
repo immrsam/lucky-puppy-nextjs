@@ -7,6 +7,7 @@ export default function Contact() {
           <a
             href="https://github.com/immrsam/lucky-puppy-nextjs"
             target="_blank"
+            rel="noreferrer"
           >
             Github
           </a>
